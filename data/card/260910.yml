@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.6.1"
   latestRelease: "v3.6.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:37:21Z
+  collectedAt: 2026-09-10T16:15:15Z
 timeline:
   created: 2020-10-09
   lastCommit: 2026-08-23
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-05-04
   lastPrerelease: 
 popularity:
-  star: 2851
+  star: 2852
   watcher: 12
   fork: 59
   release: 47
@@ -85,7 +85,7 @@ total:
   commit: 251
 ---
 path: /home/runner/.x-repo/github.com/canop/dysk
-collectedAt: 2026-09-10T04:37:22Z
+collectedAt: 2026-09-10T16:15:16Z
 loc:
   Rust:
     code: 2324
