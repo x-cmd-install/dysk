@@ -12,6 +12,18 @@ A linux utility to get information on filesystems, like df but better
 x install dysk
 ```
 
+## Code insight
+
+Total: **3,462** lines of code across **39** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 2,324 | 24 | 103 | 18 |
+| Css | 559 | 9 | 29 | 1 |
+| Svg | 387 | 6 | 13 | 9 |
+| Toml | 114 | 21 | 19 | 4 |
+| Sh | 78 | 48 | 22 | 7 |
+
 ## Source
 
 - **Upstream**: <https://github.com/canop/dysk>
@@ -23,12 +35,6 @@ x install dysk
 - **Latest**: `v3.6.1` (2026-05-04)
 - **Last commit**: 2026-08-23
 - **Assets in release**: 1
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [dysk_3.6.1.zip](https://github.com/canop/dysk/releases/download/v3.6.1/dysk_3.6.1.zip) | 11.0 MiB | `other` |
 
 ## Popularity
 
@@ -43,20 +49,33 @@ x install dysk
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 2 | 1 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 2 | 3 |
+| last180d | 2026-03-14 | 1 | 0 | 0 | 1 | 2 | 5 |
 | 360d | 2025-09-15 | 6 | 7 | 0 | 9 | 6 | 44 |
+| last720d | 2024-09-20 | 10 | 11 | 0 | 17 | 9 | 94 |
 
-## Code size
+## Release assets
 
-Total: **3,462** lines of code across **39** files in the top 5 languages.
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [dysk_3.6.1.zip](https://github.com/canop/dysk/releases/download/v3.6.1/dysk_3.6.1.zip) | 11.0 MiB | `other` |
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 2,324 | 24 | 103 | 18 |
-| Css | 559 | 9 | 29 | 1 |
-| Svg | 387 | 6 | 13 | 9 |
-| Toml | 114 | 21 | 19 | 4 |
-| Sh | 78 | 48 | 22 | 7 |
+## Distribution status
+
+Reported by **66** distros on [repology.org](https://repology.org/project/dysk). **25** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.6.1` | ✅ latest |
+| Debian 14 | `3.6.1` | ✅ latest |
+| Debian 13 | `2.10.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.6.0` | ⚠️ outdated |
+| Arch | `3.6.1` | ✅ latest |
+| Homebrew | `3.6.1` | ✅ latest |
+| Nix unstable | `3.6.1` | ✅ latest |
+| Alpine edge | `3.6.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `v3.6.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -67,4 +86,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:15:19Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:20:04Z._
