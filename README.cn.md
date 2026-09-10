@@ -4,7 +4,7 @@
 
 A linux utility to get information on filesystems, like df but better
 
-![dysk](https://repo.x-cmd.io/dysk.svg)
+![dysk](https://repo.x-cmd.io/dysk.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,16 @@ x install dysk
 - **最新版本**: `v3.6.1` (2026-05-04)
 - **最近提交**: 2026-08-23
 - **Release 含资产**: 1 个
-- **发布时间**: 2026-05-04T16:49:02Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [dysk_3.6.1.zip](https://github.com/canop/dysk/releases/download/v3.6.1/dysk_3.6.1.zip) | 11.0 MiB | `other` |
 
 ## 流行度
 
-- **Star**: 2,851 · **Fork**: 59 · **开放 issue**: 89 · **贡献者**: 9
+- **Star**: 2,852 · **Fork**: 59 · **开放 issue**: 89 · **贡献者**: 9
 
 ## 累计统计
 
@@ -62,4 +67,4 @@ dysk 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:37:25Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:15:20Z._
