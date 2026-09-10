@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 11569631,
       "digest": "sha256:fa2d50341f105e564695c905681d493807f880fa38647e8fb53125f4a10b5037",
-      "download_count": 2244,
+      "download_count": 2246,
       "created_at": "2026-05-04T16:48:56Z",
       "updated_at": "2026-05-04T16:48:59Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.6.1/dysk_3.6.1.zip"
