@@ -1,24 +1,65 @@
 # dysk
 
+[中文版本](./README.cn.md)
+
 A linux utility to get information on filesystems, like df but better
 
-- **Upstream**: <https://github.com/canop/dysk>
-- **Homepage**: <https://dystroy.org/dysk>
-- **Latest release**: `v3.6.1` (2026-05-04)
-- **Last commit**: 2026-08-23
-- **License**: MIT
-- **Stars**: 2851 · **Forks**: 59 · **Open issues**: 89 · **Contributors**: 9
+![dysk](https://repo.x-cmd.io/dysk.svg)
 
-## Installation
+## Install
 
 ```sh
 x install dysk
 ```
 
-See <https://x-cmd.com/install/dysk> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/canop/dysk>
+- **Homepage**: <https://dystroy.org/dysk>
+- **License**: MIT
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T18:52:27Z._
+- **Latest**: `v3.6.1` (2026-05-04)
+- **Last commit**: 2026-08-23
+- **Assets in release**: 1
+- **Published**: 2026-05-04T16:49:02Z
+
+## Popularity
+
+- **Stars**: 2,851 · **Forks**: 59 · **Open issues**: 89 · **Contributors**: 9
+
+## Totals (cumulative)
+
+- **Releases**: 47 · **Merged PRs**: 25 · **Open PRs**: 0 · **Closed issues**: 69 · **Open issues**: 20 · **Commits**: 251
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 2 | 3 |
+| 360d | 2025-09-15 | 6 | 7 | 0 | 9 | 6 | 44 |
+
+## Code size
+
+Total: **3,462** lines of code across **39** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 2,324 | 24 | 103 | 18 |
+| Css | 559 | 9 | 29 | 1 |
+| Svg | 387 | 6 | 13 | 9 |
+| Toml | 114 | 21 | 19 | 4 |
+| Sh | 78 | 48 | 22 | 7 |
+
+## Improve this data
+
+Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `dysk` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/dysk.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T04:37:24Z._
