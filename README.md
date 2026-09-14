@@ -14,15 +14,15 @@ x install dysk
 
 ## Code insight
 
-Total: **3,390** lines of code across **34** files in the top 5 languages.
+Total: **3,806** lines of code across **42** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 2,324 | 24 | 103 | 18 |
+| Rust | 2,320 | 24 | 102 | 18 |
 | Css | 559 | 9 | 29 | 1 |
+| Sh | 411 | 172 | 71 | 10 |
 | Svg | 387 | 6 | 13 | 9 |
-| Toml | 114 | 21 | 19 | 4 |
-| Sh | 6 | 7 | 4 | 2 |
+| Toml | 129 | 21 | 20 | 4 |
 
 ## Source
 
@@ -32,50 +32,34 @@ Total: **3,390** lines of code across **34** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v3.6.1` (2026-05-04)
-- **Last commit**: 2026-09-11
+- **Latest**: `v3.7.0` (2026-09-13)
+- **Last commit**: 2026-09-13
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 2,852 · **Forks**: 59 · **Open issues**: 89 · **Contributors**: 9
+- **Stars**: 2,854 · **Forks**: 59 · **Open issues**: 89 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 47 · **Merged PRs**: 25 · **Open PRs**: 1 · **Closed issues**: 69 · **Open issues**: 20 · **Commits**: 252
+- **Releases**: 48 · **Merged PRs**: 26 · **Open PRs**: 0 · **Closed issues**: 69 · **Open issues**: 20 · **Commits**: 256
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 0 | 2 |
-| last60d | 2026-07-15 | 0 | 0 | 1 | 0 | 2 | 2 |
-| 90d | 2026-06-15 | 0 | 0 | 1 | 0 | 2 | 4 |
-| last180d | 2026-03-17 | 1 | 0 | 1 | 1 | 2 | 6 |
-| 360d | 2025-09-18 | 6 | 7 | 1 | 9 | 6 | 45 |
-| last720d | 2024-09-23 | 10 | 11 | 1 | 17 | 9 | 95 |
+| 30d | 2026-08-15 | 1 | 1 | 0 | 0 | 0 | 5 |
+| last60d | 2026-07-16 | 1 | 1 | 0 | 0 | 2 | 5 |
+| 90d | 2026-06-16 | 1 | 1 | 0 | 0 | 2 | 7 |
+| last180d | 2026-03-18 | 2 | 1 | 0 | 1 | 2 | 9 |
+| 360d | 2025-09-19 | 7 | 8 | 0 | 9 | 6 | 48 |
+| last720d | 2024-09-24 | 11 | 12 | 0 | 17 | 9 | 99 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [dysk_3.6.1.zip](https://github.com/canop/dysk/releases/download/v3.6.1/dysk_3.6.1.zip) | 11.0 MiB | `other` |
-
-## Distribution status
-
-Reported by **66** distros on [repology.org](https://repology.org/project/dysk). **25** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.6.1` | ✅ latest |
-| Debian 14 | `3.6.1` | ✅ latest |
-| Debian 13 | `2.10.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.6.0` | ⚠️ outdated |
-| Arch | `3.6.1` | ✅ latest |
-| Homebrew | `3.6.1` | ✅ latest |
-| Nix unstable | `3.6.1` | ✅ latest |
-| Alpine edge | `3.6.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `v3.6.1` | ⚠️ outdated |
+| [dysk_3.7.0.zip](https://github.com/canop/dysk/releases/download/v3.7.0/dysk_3.7.0.zip) | 11.8 MiB | `other` |
 
 ## Improve this data
 
@@ -86,4 +70,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:46:39Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:57:07Z._
