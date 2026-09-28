@@ -32,34 +32,34 @@ Total: **3,806** lines of code across **42** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v3.7.0` (2026-09-13)
-- **Last commit**: 2026-09-13
+- **Latest**: `v3.7.1` (2026-09-27)
+- **Last commit**: 2026-09-27
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 2,857 · **Forks**: 60 · **Open issues**: 89 · **Contributors**: 9
+- **Stars**: 2,858 · **Forks**: 60 · **Open issues**: 89 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 26 · **Open PRs**: 0 · **Closed issues**: 69 · **Open issues**: 20 · **Commits**: 256
+- **Releases**: 49 · **Merged PRs**: 26 · **Open PRs**: 0 · **Closed issues**: 71 · **Open issues**: 18 · **Commits**: 259
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 1 | 1 | 0 | 0 | 0 | 4 |
-| last60d | 2026-07-29 | 1 | 1 | 0 | 0 | 1 | 5 |
-| 90d | 2026-06-29 | 1 | 1 | 0 | 0 | 2 | 7 |
-| last180d | 2026-03-31 | 2 | 1 | 0 | 1 | 2 | 9 |
-| 360d | 2025-10-02 | 7 | 8 | 0 | 9 | 6 | 48 |
-| last720d | 2024-10-07 | 11 | 12 | 0 | 17 | 9 | 99 |
+| 30d | 2026-08-29 | 2 | 1 | 0 | 0 | 0 | 7 |
+| last60d | 2026-07-30 | 2 | 1 | 0 | 1 | 0 | 8 |
+| 90d | 2026-06-30 | 2 | 1 | 0 | 1 | 1 | 10 |
+| last180d | 2026-04-01 | 3 | 1 | 0 | 2 | 1 | 12 |
+| 360d | 2025-10-03 | 8 | 8 | 0 | 11 | 4 | 51 |
+| last720d | 2024-10-08 | 12 | 12 | 0 | 19 | 7 | 102 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [dysk_3.7.0.zip](https://github.com/canop/dysk/releases/download/v3.7.0/dysk_3.7.0.zip) | 11.8 MiB | `other` |
+| [dysk_3.7.1.zip](https://github.com/canop/dysk/releases/download/v3.7.1/dysk_3.7.1.zip) | 11.8 MiB | `other` |
 
 ## Improve this data
 
@@ -70,4 +70,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:20:54Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:20:48Z._
