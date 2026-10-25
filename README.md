@@ -38,7 +38,7 @@ Total: **3,935** lines of code across **42** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,883 · **Forks**: 62 · **Open issues**: 91 · **Contributors**: 9
+- **Stars**: 2,885 · **Forks**: 62 · **Open issues**: 91 · **Contributors**: 9
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **3,935** lines of code across **42** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 3 | 0 | 0 | 2 | 0 | 11 |
-| last60d | 2026-08-25 | 4 | 1 | 0 | 2 | 0 | 15 |
-| 90d | 2026-07-26 | 4 | 1 | 0 | 3 | 0 | 16 |
-| last180d | 2026-04-27 | 5 | 1 | 0 | 4 | 1 | 20 |
-| 360d | 2025-10-29 | 10 | 6 | 0 | 13 | 2 | 48 |
-| last720d | 2024-11-03 | 14 | 12 | 0 | 22 | 6 | 110 |
+| 30d | 2026-09-25 | 3 | 0 | 0 | 2 | 0 | 7 |
+| last60d | 2026-08-26 | 4 | 1 | 0 | 2 | 0 | 15 |
+| 90d | 2026-07-27 | 4 | 1 | 0 | 3 | 0 | 16 |
+| last180d | 2026-04-28 | 5 | 1 | 0 | 4 | 1 | 19 |
+| 360d | 2025-10-30 | 9 | 6 | 0 | 13 | 2 | 45 |
+| last720d | 2024-11-04 | 14 | 12 | 0 | 22 | 6 | 110 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T04:40:08Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:39:37Z._
