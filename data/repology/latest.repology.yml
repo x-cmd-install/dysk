@@ -1,4 +1,4 @@
-- repo: gentoo_ovl_guru
+- repo: liguros_develop
   srcname: sys-apps/dysk
   visiblename: sys-apps/dysk
   version: 2.10.1
@@ -11,19 +11,6 @@
     - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
   categories:
     - sys-apps
-- repo: alpine_3_24
-  subrepo: community
-  srcname: dysk
-  binname: dysk-zsh-completion
-  visiblename: dysk-zsh-completion
-  version: 3.6.0
-  origversion: 3.6.0-r0
-  status: outdated
-  summary: Zsh completions for dysk
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - MIT
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -167,6 +154,19 @@
     - michal@polanski.me
   licenses:
     - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: dysk
+  binname: dysk-zsh-completion
+  visiblename: dysk-zsh-completion
+  version: 3.6.0
+  origversion: 3.6.0-r0
+  status: outdated
+  summary: Zsh completions for dysk
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: dysk
@@ -262,6 +262,20 @@
   origversion: null
   status: newest
   summary: give information on mounted filesystems
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 2.10.0
+  origversion: 2.10.0-4
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@tutanota.com
+  categories:
+    - utils
 - repo: crux_37
   subrepo: contrib
   srcname: dysk
@@ -378,6 +392,19 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-fs
+- repo: gentoo_ovl_guru
+  srcname: sys-apps/dysk
+  visiblename: sys-apps/dysk
+  version: 2.10.1
+  origversion: null
+  status: outdated
+  summary: give information on mounted filesystems
+  maintainers:
+    - kupravagoodman@proton.me
+  licenses:
+    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
+  categories:
+    - sys-apps
 - repo: homebrew
   srcname: dysk
   visiblename: dysk
@@ -407,19 +434,6 @@
   categories:
     - utils
 - repo: liguros_stable
-  srcname: sys-apps/dysk
-  visiblename: sys-apps/dysk
-  version: 2.10.1
-  origversion: null
-  status: outdated
-  summary: give information on mounted filesystems
-  maintainers:
-    - kupravagoodman@proton.me
-  licenses:
-    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
-  categories:
-    - sys-apps
-- repo: liguros_develop
   srcname: sys-apps/dysk
   visiblename: sys-apps/dysk
   version: 2.10.1
@@ -587,9 +601,9 @@
     - dysk-debuginfo
     - dysk-debugsource
   visiblename: dysk
-  version: 3.8.0
-  origversion: 3.8.0-1.1
-  status: outdated
+  version: 3.8.1
+  origversion: 3.8.1-1.1
+  status: newest
   summary: Get information on filesystems, like df but better
   licenses:
     - MIT
@@ -620,20 +634,6 @@
     - MIT
 - repo: parrot
   subrepo: parrot/main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 2.10.0
-  origversion: 2.10.0-4
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@tutanota.com
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot-updates/main
   srcname: rust-dysk
   binnames:
     - dysk
