@@ -48,12 +48,12 @@ Total: **3,935** lines of code across **42** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 3 | 0 | 0 | 2 | 0 | 7 |
-| last60d | 2026-08-27 | 4 | 1 | 0 | 2 | 0 | 15 |
-| 90d | 2026-07-28 | 4 | 1 | 0 | 3 | 0 | 16 |
-| last180d | 2026-04-29 | 5 | 1 | 0 | 4 | 1 | 19 |
-| 360d | 2025-10-31 | 9 | 6 | 0 | 13 | 2 | 45 |
-| last720d | 2024-11-05 | 14 | 12 | 0 | 22 | 6 | 109 |
+| 30d | 2026-09-27 | 3 | 0 | 0 | 2 | 0 | 7 |
+| last60d | 2026-08-28 | 4 | 1 | 0 | 2 | 0 | 15 |
+| 90d | 2026-07-29 | 4 | 1 | 0 | 3 | 0 | 16 |
+| last180d | 2026-04-30 | 5 | 1 | 0 | 4 | 1 | 19 |
+| 360d | 2025-11-01 | 9 | 6 | 0 | 13 | 2 | 45 |
+| last720d | 2024-11-06 | 14 | 12 | 0 | 22 | 6 | 109 |
 
 ## Release assets
 
@@ -63,7 +63,7 @@ Total: **3,935** lines of code across **42** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **66** distros on [repology.org](https://repology.org/project/dysk). **13** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
+Reported by **66** distros on [repology.org](https://repology.org/project/dysk). **14** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,7 +75,7 @@ Reported by **66** distros on [repology.org](https://repology.org/project/dysk).
 | Homebrew | `3.8.1` | ✅ latest |
 | Nix unstable | `3.8.1` | ✅ latest |
 | Alpine edge | `3.6.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.8.1` | ✅ latest |
 
 ## Improve this data
 
@@ -86,4 +86,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:43:53Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:02:48Z._
