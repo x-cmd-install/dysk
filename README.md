@@ -14,13 +14,13 @@ x install dysk
 
 ## Code insight
 
-Total: **3,935** lines of code across **42** files in the top 5 languages.
+Total: **4,068** lines of code across **43** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 2,382 | 24 | 105 | 18 |
+| Sh | 611 | 208 | 94 | 11 |
 | Css | 559 | 9 | 29 | 1 |
-| Sh | 478 | 181 | 80 | 10 |
 | Svg | 387 | 6 | 13 | 9 |
 | Toml | 129 | 21 | 20 | 4 |
 
@@ -33,27 +33,27 @@ Total: **3,935** lines of code across **42** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.8.1` (2026-10-17)
-- **Last commit**: 2026-10-17
+- **Last commit**: 2026-10-31
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 2,887 · **Forks**: 62 · **Open issues**: 92 · **Contributors**: 9
+- **Stars**: 2,888 · **Forks**: 63 · **Open issues**: 92 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 51 · **Merged PRs**: 26 · **Open PRs**: 0 · **Closed issues**: 74 · **Open issues**: 18 · **Commits**: 267
+- **Releases**: 51 · **Merged PRs**: 26 · **Open PRs**: 0 · **Closed issues**: 74 · **Open issues**: 18 · **Commits**: 268
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 2 | 0 | 0 | 1 | 1 | 7 |
-| last60d | 2026-09-01 | 4 | 1 | 0 | 2 | 1 | 15 |
-| 90d | 2026-08-02 | 4 | 1 | 0 | 2 | 1 | 16 |
-| last180d | 2026-05-04 | 5 | 1 | 0 | 3 | 2 | 19 |
-| 360d | 2025-11-05 | 8 | 6 | 0 | 13 | 2 | 45 |
-| last720d | 2024-11-10 | 14 | 12 | 0 | 22 | 7 | 109 |
+| 30d | 2026-10-02 | 2 | 0 | 0 | 1 | 1 | 8 |
+| last60d | 2026-09-02 | 4 | 1 | 0 | 2 | 1 | 16 |
+| 90d | 2026-08-03 | 4 | 1 | 0 | 2 | 1 | 17 |
+| last180d | 2026-05-05 | 4 | 1 | 0 | 3 | 2 | 20 |
+| 360d | 2025-11-06 | 8 | 6 | 0 | 13 | 2 | 42 |
+| last720d | 2024-11-11 | 14 | 12 | 0 | 22 | 7 | 110 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:33:06Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:00:01Z._
