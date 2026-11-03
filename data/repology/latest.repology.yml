@@ -1,3 +1,27 @@
+- repo: nix_stable_25_11
+  srcname: dysk
+  visiblename: dysk
+  version: 3.4.0
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - koral@mailoo.org
+    - osmanfbayram@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: dysk
+  visiblename: dysk
+  version: 2.9.1
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
+  licenses:
+    - MIT
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -22,6 +46,18 @@
   summary: Get information on your mounted disks
   maintainers:
     - michal@polanski.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: dysk
+  visiblename: dysk
+  version: 2.10.1
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -247,7 +283,7 @@
   visiblename: dysk
   version: 3.8.1
   origversion: null
-  status: newest
+  status: outdated
   summary: give information on mounted filesystems
 - repo: crux_37
   subrepo: contrib
@@ -263,7 +299,7 @@
   subrepo: contrib
   srcname: dysk
   visiblename: dysk
-  version: 3.8.1
+  version: 3.8.2
   origversion: null
   status: newest
   summary: A thing to get information on your mounted disks
@@ -359,7 +395,7 @@
   visiblename: sys-fs/dysk
   version: 3.8.1
   origversion: null
-  status: newest
+  status: outdated
   summary: A linux utility to get information on filesystems, like df but better
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -381,7 +417,7 @@
 - repo: homebrew
   srcname: dysk
   visiblename: dysk
-  version: 3.8.1
+  version: 3.8.2
   origversion: null
   status: newest
   summary: Linux utility to get information on filesystems, like df but better
@@ -406,33 +442,6 @@
     - noisycoil@debian.org
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
-  categories:
-    - utils
-- repo: t2
-  srcname: dysk
-  visiblename: dysk
-  version: 3.8.1
-  origversion: null
-  status: newest
-  summary: Utility to get information on filesystems
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/tool
 - repo: liguros_stable
   srcname: sys-apps/dysk
   visiblename: sys-apps/dysk
@@ -465,7 +474,7 @@
   visiblename: dysk
   version: 3.8.1
   origversion: null
-  status: newest
+  status: outdated
   summary: A linux utility to get information on filesystems, like df but better
   maintainers:
     - lsdrfrx@github
@@ -506,8 +515,8 @@
   srcname: dysk
   binname: dysk
   visiblename: dysk
-  version: 3.6.1
-  origversion: 1:3.6.1-1
+  version: 2.8.0
+  origversion: 2.8.0-1
   status: outdated
   summary: Get information on your mounted filesystems
   licenses:
@@ -517,8 +526,8 @@
   srcname: dysk
   binname: dysk
   visiblename: dysk
-  version: 3.7.1
-  origversion: 1:3.7.1-1
+  version: 2.8.0
+  origversion: 2.8.0-1
   status: outdated
   summary: Get information on your mounted filesystems
   licenses:
@@ -546,42 +555,6 @@
     - koral@mailoo.org
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: dysk
-  visiblename: dysk
-  version: 2.9.1
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: dysk
-  visiblename: dysk
-  version: 2.10.1
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: dysk
-  visiblename: dysk
-  version: 3.4.0
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - koral@mailoo.org
-    - osmanfbayram@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: dysk
   visiblename: dysk
@@ -599,7 +572,7 @@
   visiblename: dysk
   version: 3.8.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Get information on your mounted disks
   maintainers:
     - koral@mailoo.org
@@ -616,7 +589,7 @@
   visiblename: dysk
   version: 3.8.1
   origversion: 3.8.1-1.1
-  status: newest
+  status: outdated
   summary: Get information on filesystems, like df but better
   licenses:
     - MIT
@@ -701,13 +674,40 @@
     - noisycoil@tutanota.com
   categories:
     - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - utils
+- repo: t2
+  srcname: dysk
+  visiblename: dysk
+  version: 3.8.1
+  origversion: null
+  status: outdated
+  summary: Utility to get information on filesystems
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/tool
 - repo: terra_rawhide
   srcname: rust-dysk
   binname: dysk
   visiblename: dysk
   version: 3.8.1
   origversion: 3.8.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Give information on mounted filesystems
   maintainers:
     - mado@fyralabs.com
@@ -721,7 +721,7 @@
   visiblename: dysk
   version: 3.8.1
   origversion: 3.8.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Give information on mounted filesystems
   maintainers:
     - mado@fyralabs.com
@@ -735,7 +735,7 @@
   visiblename: dysk-debuginfo
   version: 3.8.1
   origversion: 3.8.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package dysk
   maintainers:
     - mado@fyralabs.com
@@ -749,7 +749,7 @@
   visiblename: dysk-debuginfo
   version: 3.8.1
   origversion: 3.8.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package dysk
   maintainers:
     - mado@fyralabs.com
@@ -763,7 +763,7 @@
   visiblename: rust-dysk-debugsource
   version: 3.8.1
   origversion: 3.8.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug sources for package rust-dysk
   maintainers:
     - mado@fyralabs.com
@@ -777,7 +777,7 @@
   visiblename: rust-dysk-debugsource
   version: 3.8.1
   origversion: 3.8.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug sources for package rust-dysk
   maintainers:
     - mado@fyralabs.com
