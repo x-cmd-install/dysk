@@ -14,12 +14,12 @@ x install dysk
 
 ## 代码洞察
 
-合计: **4,068** 行代码（覆盖前 5 种语言、共 **43** 个文件）。
+合计: **4,264** 行代码（覆盖前 5 种语言、共 **44** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 2,382 | 24 | 105 | 18 |
-| Sh | 611 | 208 | 94 | 11 |
+| Rust | 2,565 | 29 | 120 | 19 |
+| Sh | 624 | 208 | 94 | 11 |
 | Css | 559 | 9 | 29 | 1 |
 | Svg | 387 | 6 | 13 | 9 |
 | Toml | 129 | 21 | 20 | 4 |
@@ -32,38 +32,49 @@ x install dysk
 
 ## 发布
 
-- **最新版本**: `v3.8.1` (2026-10-17)
-- **最近提交**: 2026-10-31
-- **Release 含资产**: 1 个
+- **最新版本**: `v3.8.2` (2026-11-02)
+- **最近提交**: 2026-11-02
+- **Release 含资产**: 12 个
 
 ## 流行度
 
-- **Star**: 2,888 · **Fork**: 63 · **开放 issue**: 92 · **贡献者**: 9
+- **Star**: 2,889 · **Fork**: 64 · **开放 issue**: 92 · **贡献者**: 10
 
 ## 累计统计
 
-- **发布数**: 51 · **已合并 PR**: 26 · **开放 PR**: 0 · **已关闭 issue**: 74 · **开放 issue**: 18 · **提交数**: 268
+- **发布数**: 52 · **已合并 PR**: 27 · **开放 PR**: 0 · **已关闭 issue**: 76 · **开放 issue**: 16 · **提交数**: 276
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 2 | 0 | 0 | 1 | 1 | 8 |
-| last60d | 2026-09-03 | 4 | 1 | 0 | 2 | 1 | 16 |
-| 90d | 2026-08-04 | 4 | 1 | 0 | 2 | 1 | 17 |
-| last180d | 2026-05-06 | 4 | 1 | 0 | 3 | 2 | 20 |
-| 360d | 2025-11-07 | 8 | 5 | 0 | 13 | 2 | 42 |
-| last720d | 2024-11-12 | 14 | 12 | 0 | 22 | 7 | 110 |
+| 30d | 2026-10-04 | 3 | 1 | 0 | 2 | 0 | 15 |
+| last60d | 2026-09-04 | 5 | 2 | 0 | 3 | 0 | 23 |
+| 90d | 2026-08-05 | 5 | 2 | 0 | 3 | 0 | 24 |
+| last180d | 2026-05-07 | 5 | 2 | 0 | 4 | 1 | 27 |
+| 360d | 2025-11-08 | 9 | 6 | 0 | 14 | 1 | 49 |
+| last720d | 2024-11-13 | 15 | 13 | 0 | 23 | 6 | 118 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [dysk_3.8.1.zip](https://github.com/canop/dysk/releases/download/v3.8.1/dysk_3.8.1.zip) | 11.8 MiB | `other` |
+| [dysk-v3.8.2-aarch64-apple-darwin.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-aarch64-apple-darwin.tar.gz) | 1.0 MiB | `native/darwin/arm64` |
+| [dysk-v3.8.2-aarch64-unknown-linux-gnu.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-aarch64-unknown-linux-gnu.tar.gz) | 1.1 MiB | `native/linux/arm64/glibc` |
+| [dysk-v3.8.2-aarch64-unknown-linux-musl.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-aarch64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/linux/arm64/musl` |
+| [dysk-v3.8.2-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-armv7-unknown-linux-gnueabihf.tar.gz) | 1.1 MiB | `native/linux/arm/glibc` |
+| [dysk-v3.8.2-armv7-unknown-linux-musleabi.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-armv7-unknown-linux-musleabi.tar.gz) | 1.1 MiB | `native/linux/arm/musl` |
+| [dysk-v3.8.2-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-riscv64gc-unknown-linux-gnu.tar.gz) | 1.2 MiB | `native/linux/riscv64/glibc` |
+| [dysk-v3.8.2-x86_64-apple-darwin.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-apple-darwin.tar.gz) | 1.1 MiB | `native/darwin/x64` |
+| [dysk-v3.8.2-x86_64-pc-windows-gnu.zip](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-pc-windows-gnu.zip) | 1.7 MiB | `native/win/x64` |
+| [dysk-v3.8.2-x86_64-unknown-linux-gnu.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-unknown-linux-gnu.tar.gz) | 1.2 MiB | `native/linux/x64/glibc` |
+| [dysk-v3.8.2-x86_64-unknown-linux-musl.tar.gz](https://github.com/canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-unknown-linux-musl.tar.gz) | 1.2 MiB | `native/linux/x64/musl` |
+| [dysk_3.8.2.zip](https://github.com/canop/dysk/releases/download/v3.8.2/dysk_3.8.2.zip) | 11.8 MiB | `other` |
+| [sha256sums](https://github.com/canop/dysk/releases/download/v3.8.2/sha256sums) | 1.2 KiB | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/dysk) 上共有 **66** 个发行版报告此项目。**14** 个 ✅ 已是最新上游版本，**50** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/dysk) 上共有 **66** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**62** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -72,10 +83,10 @@ x install dysk
 | Debian 13 | `2.10.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.6.0` | ⚠️ outdated |
 | Arch | `3.8.0` | ⚠️ outdated |
-| Homebrew | `3.8.1` | ✅ latest |
-| Nix unstable | `3.8.1` | ✅ latest |
+| Homebrew | `3.8.2` | ✅ latest |
+| Nix unstable | `3.8.1` | ⚠️ outdated |
 | Alpine edge | `3.6.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.8.1` | ✅ latest |
+| openSUSE Tumbleweed | `3.8.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -86,4 +97,4 @@ dysk 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261102.yml` · 2026-11-02T06:02:37Z._
+_数据快照: `data/card/261103.yml` · 2026-11-03T06:41:09Z._
