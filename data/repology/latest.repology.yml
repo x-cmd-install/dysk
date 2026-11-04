@@ -1,27 +1,37 @@
-- repo: nix_stable_25_11
-  srcname: dysk
-  visiblename: dysk
-  version: 3.4.0
+- repo: gentoo_ovl_guru
+  srcname: sys-apps/dysk
+  visiblename: sys-apps/dysk
+  version: 2.10.1
   origversion: null
   status: outdated
-  summary: Get information on your mounted disks
+  summary: give information on mounted filesystems
   maintainers:
-    - koral@mailoo.org
-    - osmanfbayram@gmail.com
+    - kupravagoodman@proton.me
   licenses:
-    - MIT
-- repo: nix_stable_24_11
+    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
+  categories:
+    - sys-apps
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 2.10.0
+  origversion: 2.10.0-4
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@tutanota.com
+  categories:
+    - utils
+- repo: homebrew
   srcname: dysk
   visiblename: dysk
-  version: 2.9.1
+  version: 3.8.2
   origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
-  licenses:
-    - MIT
+  status: newest
+  summary: Linux utility to get information on filesystems, like df but better
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -46,18 +56,6 @@
   summary: Get information on your mounted disks
   maintainers:
     - michal@polanski.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: dysk
-  visiblename: dysk
-  version: 2.10.1
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -401,26 +399,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-fs
-- repo: gentoo_ovl_guru
-  srcname: sys-apps/dysk
-  visiblename: sys-apps/dysk
-  version: 2.10.1
-  origversion: null
-  status: outdated
-  summary: give information on mounted filesystems
-  maintainers:
-    - kupravagoodman@proton.me
-  licenses:
-    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
-  categories:
-    - sys-apps
-- repo: homebrew
-  srcname: dysk
-  visiblename: dysk
-  version: 3.8.2
-  origversion: null
-  status: newest
-  summary: Linux utility to get information on filesystems, like df but better
 - repo: homebrew
   srcname: dysk
   visiblename: dysk
@@ -429,6 +407,20 @@
   status: rolling
   summary: Linux utility to get information on filesystems, like df but better
 - repo: kali_rolling
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - utils
+- repo: raspbian_testing
   subrepo: main
   srcname: rust-dysk
   binnames:
@@ -472,9 +464,9 @@
   srcname: sysutils/dysk
   binname: dysk
   visiblename: dysk
-  version: 3.8.1
+  version: 3.8.2
   origversion: null
-  status: outdated
+  status: newest
   summary: A linux utility to get information on filesystems, like df but better
   maintainers:
     - lsdrfrx@github
@@ -555,6 +547,42 @@
     - koral@mailoo.org
   licenses:
     - MIT
+- repo: nix_stable_24_11
+  srcname: dysk
+  visiblename: dysk
+  version: 2.9.1
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: dysk
+  visiblename: dysk
+  version: 2.10.1
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: dysk
+  visiblename: dysk
+  version: 3.4.0
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - koral@mailoo.org
+    - osmanfbayram@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: dysk
   visiblename: dysk
@@ -570,9 +598,9 @@
 - repo: nix_unstable
   srcname: dysk
   visiblename: dysk
-  version: 3.8.1
+  version: 3.8.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Get information on your mounted disks
   maintainers:
     - koral@mailoo.org
@@ -619,7 +647,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-dysk
   binnames:
     - dysk
@@ -633,7 +661,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-dysk
   binnames:
     - dysk
@@ -658,34 +686,6 @@
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - noisycoil@tutanota.com
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 2.10.0
-  origversion: 2.10.0-4
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@tutanota.com
-  categories:
-    - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
   categories:
     - utils
 - repo: t2
