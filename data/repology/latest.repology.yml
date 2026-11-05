@@ -1,37 +1,23 @@
-- repo: gentoo_ovl_guru
-  srcname: sys-apps/dysk
-  visiblename: sys-apps/dysk
+- repo: crux_37
+  subrepo: contrib
+  srcname: dysk
+  visiblename: dysk
   version: 2.10.1
   origversion: null
   status: outdated
-  summary: give information on mounted filesystems
+  summary: A thing to get information on your mounted disks
   maintainers:
-    - kupravagoodman@proton.me
-  licenses:
-    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
-  categories:
-    - sys-apps
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 2.10.0
-  origversion: 2.10.0-4
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@tutanota.com
-  categories:
-    - utils
-- repo: homebrew
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
   srcname: dysk
   visiblename: dysk
   version: 3.8.2
   origversion: null
   status: newest
-  summary: Linux utility to get information on filesystems, like df but better
+  summary: A thing to get information on your mounted disks
+  maintainers:
+    - tbier@posteo.de
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -136,6 +122,20 @@
     - michal@polanski.me
   licenses:
     - MIT
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 2.10.0
+  origversion: 2.10.0-4
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@tutanota.com
+  categories:
+    - utils
 - repo: alpine_3_24
   subrepo: community
   srcname: dysk
@@ -283,26 +283,20 @@
   origversion: null
   status: outdated
   summary: give information on mounted filesystems
-- repo: crux_37
-  subrepo: contrib
-  srcname: dysk
-  visiblename: dysk
-  version: 2.10.1
-  origversion: null
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
   status: outdated
-  summary: A thing to get information on your mounted disks
   maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: contrib
-  srcname: dysk
-  visiblename: dysk
-  version: 3.8.2
-  origversion: null
-  status: newest
-  summary: A thing to get information on your mounted disks
-  maintainers:
-    - tbier@posteo.de
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - utils
 - repo: debian_13
   subrepo: trixie/main
   srcname: rust-dysk
@@ -399,6 +393,26 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-fs
+- repo: gentoo_ovl_guru
+  srcname: sys-apps/dysk
+  visiblename: sys-apps/dysk
+  version: 2.10.1
+  origversion: null
+  status: outdated
+  summary: give information on mounted filesystems
+  maintainers:
+    - kupravagoodman@proton.me
+  licenses:
+    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
+  categories:
+    - sys-apps
+- repo: homebrew
+  srcname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: null
+  status: newest
+  summary: Linux utility to get information on filesystems, like df but better
 - repo: homebrew
   srcname: dysk
   visiblename: dysk
@@ -407,20 +421,6 @@
   status: rolling
   summary: Linux utility to get information on filesystems, like df but better
 - repo: kali_rolling
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
-  categories:
-    - utils
-- repo: raspbian_testing
   subrepo: main
   srcname: rust-dysk
   binnames:
@@ -623,18 +623,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/dysk
-  binname: dysk
-  visiblename: dysk
-  version: 2.8.2
-  origversion: 2.8.2-r1
-  status: outdated
-  maintainers:
-    - facevedo@disroot.org
-  categories:
-    - utils
 - repo: parabola
   subrepo: extra
   srcname: dysk
