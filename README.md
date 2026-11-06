@@ -48,12 +48,12 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 3 | 1 | 0 | 2 | 0 | 15 |
-| last60d | 2026-09-06 | 5 | 2 | 0 | 3 | 0 | 23 |
-| 90d | 2026-08-07 | 5 | 2 | 0 | 3 | 0 | 24 |
-| last180d | 2026-05-09 | 5 | 2 | 0 | 4 | 1 | 27 |
-| 360d | 2025-11-10 | 8 | 6 | 0 | 14 | 1 | 49 |
-| last720d | 2024-11-15 | 15 | 13 | 0 | 23 | 6 | 118 |
+| 30d | 2026-10-07 | 3 | 1 | 0 | 2 | 0 | 15 |
+| last60d | 2026-09-07 | 5 | 2 | 0 | 3 | 0 | 23 |
+| 90d | 2026-08-08 | 5 | 2 | 0 | 3 | 0 | 24 |
+| last180d | 2026-05-10 | 5 | 2 | 0 | 4 | 1 | 27 |
+| 360d | 2025-11-11 | 8 | 6 | 0 | 14 | 1 | 49 |
+| last720d | 2024-11-16 | 15 | 13 | 0 | 23 | 6 | 118 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:44:09Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:35:39Z._
