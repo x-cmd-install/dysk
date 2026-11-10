@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1094823,
       "digest": "sha256:0f28f093614fd9b48ab0a053768bc3b6551421cfa6cb06c3cd90db2c82ce2380",
-      "download_count": 9,
+      "download_count": 10,
       "created_at": "2026-11-02T16:58:58Z",
       "updated_at": "2026-11-02T16:59:00Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1187105,
       "digest": "sha256:a84eb9bae0749c10721830fb3f4aba22ea028e1a45f7316c79592ae773dda488",
-      "download_count": 7,
+      "download_count": 8,
       "created_at": "2026-11-02T16:58:58Z",
       "updated_at": "2026-11-02T16:59:00Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-aarch64-unknown-linux-gnu.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1182067,
       "digest": "sha256:1017a880c83cd37d9794c1ab2b02937b21dce2bd0684965cf7e787c7b6593b31",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-11-02T16:58:58Z",
       "updated_at": "2026-11-02T16:59:00Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-aarch64-unknown-linux-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1208793,
       "digest": "sha256:dda329a9c060785a75f9c6564a6bbc191aa98ac8a532d1a28c08d2d99cd66ab7",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-11-02T16:59:00Z",
       "updated_at": "2026-11-02T16:59:01Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-riscv64gc-unknown-linux-gnu.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1789083,
       "digest": "sha256:4ad33528a87d7127546f8d84ec07a12d1d6b5109286bc168ddbad2646ca3a73e",
-      "download_count": 629,
+      "download_count": 736,
       "created_at": "2026-11-02T16:59:03Z",
       "updated_at": "2026-11-02T16:59:04Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-pc-windows-gnu.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1285132,
       "digest": "sha256:3d7df12fa939fe0548b6f1b0974cb811c4b601b05a3a97d44fda5f892dee55ad",
-      "download_count": 53,
+      "download_count": 65,
       "created_at": "2026-11-02T16:59:01Z",
       "updated_at": "2026-11-02T16:59:01Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-unknown-linux-gnu.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 1278259,
       "digest": "sha256:c049d9cf17ad06fcf9f1d4cf0cfca9f7d04aceaf0d800f0c300c058aa81390a3",
-      "download_count": 32,
+      "download_count": 37,
       "created_at": "2026-11-02T16:59:01Z",
       "updated_at": "2026-11-02T16:59:02Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk-v3.8.2-x86_64-unknown-linux-musl.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 12401319,
       "digest": "sha256:fac5136d745fbcf1f85cb8524b1398185e8867d4fea86bcfb22e98b401f1ba7e",
-      "download_count": 701,
+      "download_count": 822,
       "created_at": "2026-11-02T16:59:02Z",
       "updated_at": "2026-11-02T16:59:06Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/dysk_3.8.2.zip"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1182,
       "digest": "sha256:58dac14b5d59c23d30936bb8db15f222061e6a60fe95eef1498cf6650a256da4",
-      "download_count": 5,
+      "download_count": 7,
       "created_at": "2026-11-02T16:59:03Z",
       "updated_at": "2026-11-02T16:59:03Z",
       "browser_download_url": "https://github.com/Canop/dysk/releases/download/v3.8.2/sha256sums"
