@@ -1,60 +1,16 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: dysk
-  binname: dysk
-  visiblename: dysk
-  version: 3.8.0
-  origversion: 1:3.8.0-1
-  status: outdated
-  summary: Get information on your mounted filesystems
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: dysk
-  visiblename: dysk
-  version: 2.8.2
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: dysk
-  visiblename: dysk
-  version: 2.9.1
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: dysk
-  visiblename: dysk
+- repo: gentoo_ovl_guru
+  srcname: sys-apps/dysk
+  visiblename: sys-apps/dysk
   version: 2.10.1
   origversion: null
   status: outdated
-  summary: Get information on your mounted disks
+  summary: give information on mounted filesystems
   maintainers:
-    - figsoda@pm.me
-    - koral@mailoo.org
+    - kupravagoodman@proton.me
   licenses:
-    - MIT
-- repo: crux_38
-  subrepo: contrib
-  srcname: dysk
-  visiblename: dysk
-  version: 3.8.2
-  origversion: null
-  status: newest
-  summary: A thing to get information on your mounted disks
-  maintainers:
-    - tbier@posteo.de
+    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
+  categories:
+    - sys-apps
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -302,9 +258,9 @@
 - repo: crates_io
   srcname: dysk
   visiblename: dysk
-  version: 3.8.1
+  version: 3.8.2
   origversion: null
-  status: outdated
+  status: newest
   summary: give information on mounted filesystems
 - repo: crux_37
   subrepo: contrib
@@ -313,6 +269,16 @@
   version: 2.10.1
   origversion: null
   status: outdated
+  summary: A thing to get information on your mounted disks
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: null
+  status: newest
   summary: A thing to get information on your mounted disks
   maintainers:
     - tbier@posteo.de
@@ -404,27 +370,14 @@
   subrepo: rust
   srcname: sys-fs/dysk
   visiblename: sys-fs/dysk
-  version: 3.8.1
+  version: 3.8.2
   origversion: null
-  status: outdated
+  status: newest
   summary: A linux utility to get information on filesystems, like df but better
   maintainers:
     - fallback-mnt-exherbo@repology
   categories:
     - sys-fs
-- repo: gentoo_ovl_guru
-  srcname: sys-apps/dysk
-  visiblename: sys-apps/dysk
-  version: 2.10.1
-  origversion: null
-  status: outdated
-  summary: give information on mounted filesystems
-  maintainers:
-    - kupravagoodman@proton.me
-  licenses:
-    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
-  categories:
-    - sys-apps
 - repo: homebrew
   srcname: dysk
   visiblename: dysk
@@ -541,6 +494,53 @@
   origversion: 1:3.8.0-1
   status: outdated
   summary: Get information on your mounted filesystems
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: dysk
+  binname: dysk
+  visiblename: dysk
+  version: 3.8.0
+  origversion: 1:3.8.0-1
+  status: outdated
+  summary: Get information on your mounted filesystems
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: dysk
+  visiblename: dysk
+  version: 2.8.2
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: dysk
+  visiblename: dysk
+  version: 2.9.1
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: dysk
+  visiblename: dysk
+  version: 2.10.1
+  origversion: null
+  status: outdated
+  summary: Get information on your mounted disks
+  maintainers:
+    - figsoda@pm.me
+    - koral@mailoo.org
   licenses:
     - MIT
 - repo: nix_stable_25_11
