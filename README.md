@@ -38,22 +38,22 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,892 · **Forks**: 64 · **Open issues**: 92 · **Contributors**: 10
+- **Stars**: 2,892 · **Forks**: 64 · **Open issues**: 93 · **Contributors**: 10
 
 ## Totals (cumulative)
 
-- **Releases**: 52 · **Merged PRs**: 27 · **Open PRs**: 0 · **Closed issues**: 76 · **Open issues**: 16 · **Commits**: 276
+- **Releases**: 52 · **Merged PRs**: 27 · **Open PRs**: 0 · **Closed issues**: 77 · **Open issues**: 16 · **Commits**: 276
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 3 | 1 | 0 | 2 | 0 | 15 |
-| last60d | 2026-09-11 | 5 | 1 | 0 | 3 | 0 | 19 |
-| 90d | 2026-08-12 | 5 | 2 | 0 | 3 | 0 | 24 |
-| last180d | 2026-05-14 | 5 | 2 | 0 | 4 | 1 | 26 |
-| 360d | 2025-11-15 | 8 | 6 | 0 | 14 | 1 | 49 |
-| last720d | 2024-11-20 | 15 | 13 | 0 | 23 | 6 | 118 |
+| 30d | 2026-10-12 | 3 | 1 | 0 | 3 | 0 | 15 |
+| last60d | 2026-09-12 | 5 | 1 | 0 | 4 | 0 | 19 |
+| 90d | 2026-08-13 | 5 | 2 | 0 | 4 | 0 | 24 |
+| last180d | 2026-05-15 | 5 | 2 | 0 | 5 | 1 | 26 |
+| 360d | 2025-11-16 | 8 | 6 | 0 | 15 | 1 | 49 |
+| last720d | 2024-11-21 | 15 | 13 | 0 | 24 | 6 | 118 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **67** distros on [repology.org](https://repology.org/project/dysk). **6** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
+Reported by **67** distros on [repology.org](https://repology.org/project/dysk). **8** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -97,4 +97,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:25:44Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:11:24Z._
