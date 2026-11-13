@@ -1,16 +1,51 @@
-- repo: gentoo_ovl_guru
-  srcname: sys-apps/dysk
-  visiblename: sys-apps/dysk
-  version: 2.10.1
+- repo: homebrew
+  srcname: dysk
+  visiblename: dysk
+  version: HEAD
   origversion: null
+  status: rolling
+  summary: Linux utility to get information on filesystems, like df but better
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
   status: outdated
-  summary: give information on mounted filesystems
   maintainers:
-    - kupravagoodman@proton.me
-  licenses:
-    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
   categories:
-    - sys-apps
+    - utils
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - utils
+- repo: t2
+  srcname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: null
+  status: newest
+  summary: Utility to get information on filesystems
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/tool
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -378,6 +413,19 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-fs
+- repo: gentoo_ovl_guru
+  srcname: sys-apps/dysk
+  visiblename: sys-apps/dysk
+  version: 2.10.1
+  origversion: null
+  status: outdated
+  summary: give information on mounted filesystems
+  maintainers:
+    - kupravagoodman@proton.me
+  licenses:
+    - MIT MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
+  categories:
+    - sys-apps
 - repo: homebrew
   srcname: dysk
   visiblename: dysk
@@ -385,27 +433,20 @@
   origversion: null
   status: newest
   summary: Linux utility to get information on filesystems, like df but better
-- repo: homebrew
-  srcname: dysk
-  visiblename: dysk
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Linux utility to get information on filesystems, like df but better
-- repo: kali_rolling
-  subrepo: main
+- repo: terra_rawhide
   srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
+  binname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: 3.8.2-1.fcrawhide
+  status: newest
+  summary: Give information on mounted filesystems
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
+    - mado@fyralabs.com
+  licenses:
+    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (Unlicense OR MIT)
   categories:
-    - utils
+    - Unspecified
 - repo: liguros_stable
   srcname: sys-apps/dysk
   visiblename: sys-apps/dysk
@@ -619,7 +660,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-dysk
   binnames:
     - dysk
@@ -633,7 +674,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-dysk
   binnames:
     - dysk
@@ -674,54 +715,13 @@
     - noisycoil@tutanota.com
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
+- repo: terra_rawhide
   srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
-  categories:
-    - utils
-- repo: t2
-  srcname: dysk
+  binname: dysk
   visiblename: dysk
   version: 3.8.2
-  origversion: null
+  origversion: 3.8.2-1.fcrawhide
   status: newest
-  summary: Utility to get information on filesystems
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/tool
-- repo: terra_rawhide
-  srcname: rust-dysk
-  binname: dysk
-  visiblename: dysk
-  version: 3.8.1
-  origversion: 3.8.1-1.fcrawhide
-  status: outdated
-  summary: Give information on mounted filesystems
-  maintainers:
-    - mado@fyralabs.com
-  licenses:
-    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (Unlicense OR MIT)
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: rust-dysk
-  binname: dysk
-  visiblename: dysk
-  version: 3.8.1
-  origversion: 3.8.1-1.fcrawhide
-  status: outdated
   summary: Give information on mounted filesystems
   maintainers:
     - mado@fyralabs.com
@@ -733,9 +733,9 @@
   srcname: rust-dysk
   binname: dysk-debuginfo
   visiblename: dysk-debuginfo
-  version: 3.8.1
-  origversion: 3.8.1-1.fcrawhide
-  status: outdated
+  version: 3.8.2
+  origversion: 3.8.2-1.fcrawhide
+  status: newest
   summary: Debug information for package dysk
   maintainers:
     - mado@fyralabs.com
@@ -747,9 +747,9 @@
   srcname: rust-dysk
   binname: dysk-debuginfo
   visiblename: dysk-debuginfo
-  version: 3.8.1
-  origversion: 3.8.1-1.fcrawhide
-  status: outdated
+  version: 3.8.2
+  origversion: 3.8.2-1.fcrawhide
+  status: newest
   summary: Debug information for package dysk
   maintainers:
     - mado@fyralabs.com
@@ -761,9 +761,9 @@
   srcname: rust-dysk
   binname: rust-dysk-debugsource
   visiblename: rust-dysk-debugsource
-  version: 3.8.1
-  origversion: 3.8.1-1.fcrawhide
-  status: outdated
+  version: 3.8.2
+  origversion: 3.8.2-1.fcrawhide
+  status: newest
   summary: Debug sources for package rust-dysk
   maintainers:
     - mado@fyralabs.com
@@ -775,9 +775,9 @@
   srcname: rust-dysk
   binname: rust-dysk-debugsource
   visiblename: rust-dysk-debugsource
-  version: 3.8.1
-  origversion: 3.8.1-1.fcrawhide
-  status: outdated
+  version: 3.8.2
+  origversion: 3.8.2-1.fcrawhide
+  status: newest
   summary: Debug sources for package rust-dysk
   maintainers:
     - mado@fyralabs.com
