@@ -48,12 +48,12 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 3 | 1 | 0 | 3 | 0 | 15 |
-| last60d | 2026-09-13 | 5 | 1 | 0 | 4 | 0 | 19 |
-| 90d | 2026-08-14 | 5 | 2 | 0 | 4 | 0 | 24 |
-| last180d | 2026-05-16 | 5 | 2 | 0 | 5 | 1 | 26 |
-| 360d | 2025-11-17 | 8 | 6 | 0 | 15 | 1 | 49 |
-| last720d | 2024-11-22 | 15 | 13 | 0 | 24 | 6 | 118 |
+| 30d | 2026-10-14 | 3 | 1 | 0 | 3 | 0 | 15 |
+| last60d | 2026-09-14 | 4 | 1 | 0 | 4 | 0 | 19 |
+| 90d | 2026-08-15 | 5 | 2 | 0 | 4 | 0 | 24 |
+| last180d | 2026-05-17 | 5 | 2 | 0 | 5 | 1 | 26 |
+| 360d | 2025-11-18 | 8 | 6 | 0 | 15 | 1 | 49 |
+| last720d | 2024-11-23 | 15 | 13 | 0 | 24 | 6 | 118 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **67** distros on [repology.org](https://repology.org/project/dysk). **8** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
+Reported by **67** distros on [repology.org](https://repology.org/project/dysk). **14** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,7 +83,7 @@ Reported by **67** distros on [repology.org](https://repology.org/project/dysk).
 | Debian 13 | `2.10.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.6.0` | ⚠️ outdated |
 | Arch | `3.8.0` | ⚠️ outdated |
-| Homebrew | `3.8.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `3.8.2` | ✅ latest |
 | Alpine edge | `3.6.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.8.2` | ✅ latest |
@@ -97,4 +97,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:13:32Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T06:37:18Z._
