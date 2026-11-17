@@ -1,51 +1,3 @@
-- repo: homebrew
-  srcname: dysk
-  visiblename: dysk
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Linux utility to get information on filesystems, like df but better
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
-  categories:
-    - utils
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-dysk
-  binnames:
-    - dysk
-  visiblename: rust-dysk
-  version: 3.6.1
-  origversion: 3.6.1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
-  categories:
-    - utils
-- repo: t2
-  srcname: dysk
-  visiblename: dysk
-  version: 3.8.2
-  origversion: null
-  status: newest
-  summary: Utility to get information on filesystems
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/tool
 - repo: alpine_3_21
   subrepo: community
   srcname: dysk
@@ -413,6 +365,18 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-fs
+- repo: nix_stable_26_05
+  srcname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: null
+  status: newest
+  summary: Get information on your mounted disks
+  maintainers:
+    - koral@mailoo.org
+    - osmanfbayram@gmail.com
+  licenses:
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: sys-apps/dysk
   visiblename: sys-apps/dysk
@@ -433,20 +397,39 @@
   origversion: null
   status: newest
   summary: Linux utility to get information on filesystems, like df but better
-- repo: terra_rawhide
+- repo: homebrew
+  srcname: dysk
+  visiblename: dysk
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Linux utility to get information on filesystems, like df but better
+- repo: kali_rolling
+  subrepo: main
   srcname: rust-dysk
-  binname: dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - utils
+- repo: nix_unstable
+  srcname: dysk
   visiblename: dysk
   version: 3.8.2
-  origversion: 3.8.2-1.fcrawhide
+  origversion: null
   status: newest
-  summary: Give information on mounted filesystems
+  summary: Get information on your mounted disks
   maintainers:
-    - mado@fyralabs.com
+    - koral@mailoo.org
+    - osmanfbayram@gmail.com
   licenses:
-    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (Unlicense OR MIT)
-  categories:
-    - Unspecified
+    - MIT
 - repo: liguros_stable
   srcname: sys-apps/dysk
   visiblename: sys-apps/dysk
@@ -596,30 +579,6 @@
     - osmanfbayram@gmail.com
   licenses:
     - MIT
-- repo: nix_stable_26_05
-  srcname: dysk
-  visiblename: dysk
-  version: 3.6.1
-  origversion: null
-  status: outdated
-  summary: Get information on your mounted disks
-  maintainers:
-    - koral@mailoo.org
-    - osmanfbayram@gmail.com
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: dysk
-  visiblename: dysk
-  version: 3.8.2
-  origversion: null
-  status: newest
-  summary: Get information on your mounted disks
-  maintainers:
-    - koral@mailoo.org
-    - osmanfbayram@gmail.com
-  licenses:
-    - MIT
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: dysk
@@ -715,6 +674,47 @@
     - noisycoil@tutanota.com
   categories:
     - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-dysk
+  binnames:
+    - dysk
+  visiblename: rust-dysk
+  version: 3.6.1
+  origversion: 3.6.1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - utils
+- repo: t2
+  srcname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: null
+  status: newest
+  summary: Utility to get information on filesystems
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/tool
+- repo: terra_rawhide
+  srcname: rust-dysk
+  binname: dysk
+  visiblename: dysk
+  version: 3.8.2
+  origversion: 3.8.2-1.fcrawhide
+  status: newest
+  summary: Give information on mounted filesystems
+  maintainers:
+    - mado@fyralabs.com
+  licenses:
+    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR MIT OR Apache-2.0) AND MIT AND (MIT OR Apache-2.0) AND (Unlicense OR MIT)
+  categories:
+    - Unspecified
 - repo: terra_rawhide
   srcname: rust-dysk
   binname: dysk
