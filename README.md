@@ -38,7 +38,7 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,895 · **Forks**: 64 · **Open issues**: 93 · **Contributors**: 10
+- **Stars**: 2,896 · **Forks**: 64 · **Open issues**: 93 · **Contributors**: 10
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 1 | 0 | 2 | 0 | 8 |
-| last60d | 2026-09-21 | 4 | 1 | 0 | 4 | 0 | 19 |
-| 90d | 2026-08-22 | 5 | 2 | 0 | 4 | 0 | 23 |
-| last180d | 2026-05-24 | 5 | 2 | 0 | 5 | 1 | 26 |
-| 360d | 2025-11-25 | 8 | 5 | 0 | 13 | 1 | 47 |
-| last720d | 2024-11-30 | 15 | 13 | 0 | 24 | 6 | 118 |
+| 30d | 2026-10-22 | 1 | 1 | 0 | 2 | 0 | 8 |
+| last60d | 2026-09-22 | 4 | 1 | 0 | 4 | 0 | 19 |
+| 90d | 2026-08-23 | 5 | 2 | 0 | 4 | 0 | 23 |
+| last180d | 2026-05-25 | 5 | 2 | 0 | 5 | 1 | 26 |
+| 360d | 2025-11-26 | 8 | 5 | 0 | 13 | 1 | 47 |
+| last720d | 2024-12-01 | 15 | 13 | 0 | 24 | 6 | 118 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **67** distros on [repology.org](https://repology.org/project/dysk). **15** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
+Reported by **67** distros on [repology.org](https://repology.org/project/dysk). **20** are ✅ on the latest upstream release, **45** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -85,7 +85,7 @@ Reported by **67** distros on [repology.org](https://repology.org/project/dysk).
 | Arch | `3.8.0` | ⚠️ outdated |
 | Homebrew | `3.8.2` | ✅ latest |
 | Nix unstable | `3.8.2` | ✅ latest |
-| Alpine edge | `3.6.0` | ⚠️ outdated |
+| Alpine edge | `3.8.2` | ✅ latest |
 | openSUSE Tumbleweed | `3.8.2` | ✅ latest |
 
 ## Improve this data
@@ -97,4 +97,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:27:46Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:18:06Z._
