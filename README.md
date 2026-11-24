@@ -48,12 +48,12 @@ Total: **4,264** lines of code across **44** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 1 | 0 | 2 | 0 | 8 |
-| last60d | 2026-09-24 | 4 | 1 | 0 | 4 | 0 | 16 |
-| 90d | 2026-08-25 | 5 | 2 | 0 | 4 | 0 | 23 |
-| last180d | 2026-05-27 | 5 | 2 | 0 | 5 | 1 | 26 |
-| 360d | 2025-11-28 | 8 | 5 | 0 | 13 | 1 | 46 |
-| last720d | 2024-12-03 | 15 | 13 | 0 | 24 | 6 | 118 |
+| 30d | 2026-10-25 | 1 | 1 | 0 | 2 | 0 | 8 |
+| last60d | 2026-09-25 | 4 | 1 | 0 | 4 | 0 | 16 |
+| 90d | 2026-08-26 | 5 | 2 | 0 | 4 | 0 | 23 |
+| last180d | 2026-05-28 | 5 | 2 | 0 | 5 | 1 | 26 |
+| 360d | 2025-11-29 | 8 | 5 | 0 | 13 | 1 | 46 |
+| last720d | 2024-12-04 | 15 | 13 | 0 | 24 | 6 | 118 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Reported by **67** distros on [repology.org](https://repology.org/project/dysk).
 | Debian 13 | `2.10.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.6.0` | ⚠️ outdated |
 | Arch | `3.8.0` | ⚠️ outdated |
-| Homebrew | `3.8.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `3.8.2` | ✅ latest |
 | Alpine edge | `3.8.2` | ✅ latest |
 | openSUSE Tumbleweed | `3.8.2` | ✅ latest |
@@ -97,4 +97,4 @@ Install metadata for dysk lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:33:43Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:47:42Z._
